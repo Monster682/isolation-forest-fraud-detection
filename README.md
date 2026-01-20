@@ -37,33 +37,6 @@ Transactions that appear highly unusual are classified as fraudulent and blocked
 
 --------------------------------------------------------------------
 
-Project Structure
-
-Mobile-Payment-Fraud-Detection/
-│
-├── api/
-│   ├── main.py          FastAPI application
-│   ├── schemas.py       Request validation models
-│   └── __init__.py
-│
-├── model/
-│   ├── train_model.py   Model training script
-│   └── fraud_model.pkl  Trained ML model
-│
-├── alerts/
-│   ├── alert.py         Fraud alert handler
-│   └── __init__.py
-│
-├── website/
-│   ├── index.html       Frontend UI
-│   ├── style.css        UI styling
-│   └── script.js        Frontend logic
-│
-└── requirements.txt
-
-
---------------------------------------------------------------------
-
 Technology Stack
 Backend:
 - Python
