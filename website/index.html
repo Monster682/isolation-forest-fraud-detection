@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Fraud Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🏦 Small Finance Bank</h1>
+<h2>Mobile Payment Fraud Detection</h2>
+
+<div class="container">
+    <input id="user_id" placeholder="User ID">
+    <input id="amount" placeholder="Amount ₹">
+    <input id="hour" placeholder="Hour (0–23)">
+    <input id="location" placeholder="Location Change (0/1)">
+    <input id="device" placeholder="Device Change (0/1)">
+    <input id="count" placeholder="Txns Last 1 Hour">
+
+    <button onclick="checkFraud()">Check Transaction</button>
+</div>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
